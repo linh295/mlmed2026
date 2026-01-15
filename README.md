@@ -1,6 +1,6 @@
 USTH Machine Learning in Medicine 2026
 ==================================
 
-* Your name here
-* Your ID here
-* Your team ID here
+Student name: Doan Ngoc Linh
+Student ID: 22BA13190
+Team ID: 7
