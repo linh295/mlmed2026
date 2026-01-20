@@ -25,8 +25,7 @@ rf_model = RandomForestClassifier(
     max_depth=30,
     random_state=42,
     n_jobs=-1,
-    class_weight="balanced"   # rất quan trọng cho dữ liệu imbalance
-)
+    class_weight="balanced"  
 
 rf_model.fit(X_train, y_train)
 y_pred_rf = rf_model.predict(X_test)
