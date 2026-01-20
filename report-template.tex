@@ -147,7 +147,7 @@ This confirms the effectiveness of class weighting in mitigating the impact of s
 \subsection{Comparison with the Original Study}
 
 When compared with the results reported by Kachuee et al., a noticeable performance improvement can be observed.
-The deep convolutional neural network (CNN) proposed in the original study achieved an overall classification accuracy of approximately 93.4\%, whereas the Random Forest model in this work achieved an accuracy of approximately 97.3\%.
+The deep convolutional neural network (CNN) proposed in the original study achieved an overall classification accuracy of approximately 93.4\% \cite{OP}, whereas the Random Forest model in this work achieved an accuracy of approximately 97.3\%.
 
 This performance gain can be attributed to several factors.
 First, Random Forest is a robust ensemble learning method that reduces variance by aggregating multiple decision trees.
@@ -161,6 +161,11 @@ Random Forest, on the other hand, requires fewer hyperparameters, is less sensit
 
 It should be noted that this comparison is not strictly equivalent, as the two models were trained under different experimental setups and data representations.
 While deep learning approaches remain advantageous for end-to-end learning from raw signals and may generalize better in more complex scenarios, the results of this study demonstrate that Random Forest provides a competitive and computationally efficient alternative for ECG heartbeat classification.
+
+\section*{References}
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
 
 
 \end{document}
